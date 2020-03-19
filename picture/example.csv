@@ -1,0 +1,11 @@
+分类,描述,函数,参数,数据源,备注
+A股主板,单次返回所有 A 股上市公司的实时行情数据,stock_zh_a_spot,无,新浪财经,
+A股主板,单次返回具体某个 A 上市公司的所有历史行情数据,stock_zh_a_daily,"symbol,factor",新浪财经,"symbol=""sh600000"""
+A股主板,单次返回具体某个 A 上市公司的近 2 年历史分笔行情数据,stock_zh_a_tick,"symbol,trade_date",腾讯财经,
+A股主板,单次返回所有指数的实时行情数据,stock_zh_index_spot,无,新浪财经,
+A股主板,单次返回具体某个指数的所有历史行情数据,stock_zh_index_daily,symbol,新浪财经,
+A股主板,单次返回具体某个股票指数(或者股票)的所有历史行情数据,stock_zh_index_daily_tx,symbol,腾讯财经,
+科创板,单次返回所有科创板上市公司的实时行情数据,stock_zh_kcb_spot,无,新浪财经,
+科创板,单次返回具体某个科创板上市公司的所有历史行情数据,stock_zh_kcb_daily,"symbol,factor",新浪财经,
+美股,单次返回所有上市公司的实时行情数据,stock_us_spot,无,新浪财经,
+美股,单次返回某家上市公司的所有历史行情数据和前复权因子,stock_us_daily,symbol,新浪财经,"symbol=""AMZN"""
